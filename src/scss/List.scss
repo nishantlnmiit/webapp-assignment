@@ -1,0 +1,21 @@
+.element {
+  width: 300px;
+  height: 130px;
+}
+
+.add_favorites {
+  margin-top: 5px;
+  border: 1px sold green;
+}
+
+#scrollableElement {
+  height: calc(100vh - 40px);
+  overflow: auto;
+}
+.card-item {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

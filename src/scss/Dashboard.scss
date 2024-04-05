@@ -1,0 +1,20 @@
+.list-button {
+  border: 1px solid green;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.list-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  height: calc(100vh - 40px);
+  margin-top: 40px;
+}
+.add_favorites_disabled {
+  margin-top: 5px;
+  border: 1px sold green;
+  pointer-events: none;
+}
