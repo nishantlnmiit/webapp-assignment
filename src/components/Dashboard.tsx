@@ -10,7 +10,9 @@ function App() {
     <>
       <div className="header-wrapper">
         <div className="list-button">
-          <Link to="/list">Go to List</Link>
+          <Link to="/list">
+            <button>Go to List</button>
+          </Link>
         </div>
         <div>
           <span>Favorites: {favorites.length}</span>

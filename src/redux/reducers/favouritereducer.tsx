@@ -1,6 +1,6 @@
-import { IListItem } from "../interface";
+import { IListItem } from "../../interfaces/interface";
 
-const favouritereducer = (
+const favouriteReducer = (
   state = [],
   action: { type: string; payload: IListItem }
 ) => {
@@ -10,4 +10,4 @@ const favouritereducer = (
   return state;
 };
 
-export default favouritereducer;
+export default favouriteReducer;
